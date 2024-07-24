@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .margin-top2{
+    margin-top: 2%;
+    
+  }
+  
+  
+  .cursorpointer{
+    cursor: pointer;
+  }
+  .overflow-hidden{
+    overflow: hidden;
+  }
+  .position-absolute{
+    
+    position: absolute;
+  }
+  .position-relative{
+    position: relative;
+  }
+  .border-radius15px{
+    border-radius: 15px;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .display-none{
+    display: none;
+  }
+  .display-block{
+    display: block;
+  }
+  .text_home{
+    display: flex;
+           font-size: 22px;
+            align-items: center; /* Căn giữa theo chiều dọc */
+            height: 50px; /* Chiều cao của phần tử chứa */
+          
+            
+  }
+  .margin-left0{
+    margin-left: 0 !important;
+  }
+  header{
+    margin-bottom: 1%;
+  }
+  .text-decorationnone{
+    text-decoration: none;
+  }
+  .color-white{
+    color: white;
+  }
+  .opacity{
+    opacity: 0.5;
+    
+  }
+  .margin-top5{
+    margin-top: 5% !important;
+  }
+.full{
+    width: 100%;
+    height: 100%;
+}
+  .color-green{
+    color: limegreen;
+   
+  }
+  .center-div{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    background-color: 	rgb(32,32,32);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    
+  }
+
+  .search{
+    border: solid white;
+    border-radius: 20px;
+  }
+  body:first-of-type{
+    background-color: black;
+  }
+  input:first-of-type {
+    border-radius: 20px;
+    border: solid white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 12px;
+
+}
+input:first-of-type:focus {
+    outline: none;
+    border: none; /* Loại bỏ cả viền nếu cần */
+}
+button:first-of-type{
+    border-radius: 20px;
+    border: solid white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #999999;
+   
+}
+
+svg:first-of-type{
+  margin-left: 63%;
+}
+
+.navmusic {
+  border-radius: 15px;
+  background-color: 	rgb(32,32,32);
+  height: 100vw;
+  margin-top: 2px !important;
+}
+.slide-show{
+  overflow: hidden;
+  margin-top: 2px;
+  position: relative;
+}
+.list-image{
+  
+  display: flex;
+  
+  
+}
+
+.btns{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-left{
+  width: 100%;
+  margin-left: -27%;
+  
+ 
+ 
+}
+.btn-right{
+    width: 100%;
+    margin-left: 65% !important;
+    margin-top: -4% !important;
+ 
+ 
+}
+
+.item-container {
+  display: flex;
+ 
+  position: absolute;
+  top: 95%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+
+}
+.item {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.active{
+  background-color: white !important;
+}
+
+.active-green{
+  background-color: limegreen;
+}
+.list-albums{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+.albums{
+
+  position: absolute;
+  display: flex;
+  width: 100%;
+  
+    
+}
+.list-album{
+  width: 190px;
+  height: 200px;
+ 
+  margin-top: 2%;
+  margin-right: 2%;
+ 
+}
+.btnAlbums{
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  display: flex;
+}
+.btnrightalbum{
+  width: 100%;
+  margin-left: 92% ;
+  cursor: pointer;
+}
+.listfeeling{
+  height: 50px;
+  margin-left: 5%;
+  text-align: center;
+  border-left: solid 10px green;
+  line-height: 46px;
+  border-radius: 10px;
+  background: linear-gradient(to left, black 50%, green 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  
+}
+.music{
+  margin-left: 1%;
+  width: 190px;
+    height: 200px;
+}
+.btnsmusichot{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-music-hot-left{
+  width: 100%;
+  margin-left: -28%;
+}
+.btn-music-hot-right{
+  width: 100%;
+    margin-left: 68% !important;
+    margin-top: -4% !important;
+}
+.menu{
+  background-color: 	rgb(32,32,32);
+}
+.playmusic{
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  height: 7vw;
+}
+
+.progress {
+  width: 95%;
+  height: 6px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.progress::-webkit-slider-thumb {
+  
+  appearance: none;
+  width: 12px;
+  height: 6px;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.btn-song{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+
+
+
+
+
+/* xử lý liên quan đến sự kiện chuột */
+.navmusic :hover{
+      opacity: 1;
+      cursor: pointer;
+}
+.btns :hover{
+  cursor: pointer;
+}
+.listfeelings :hover{
+  background-position: left bottom;
+ 
+}
+
+/* xử lý liên quan đến sự kiện chuột */
+  
+
+ 
