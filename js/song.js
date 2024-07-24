@@ -18,58 +18,58 @@ const musicSong = {
             SongTamTrang : [
                 {
                     name:'Đừng làm trái tim anh đau',
-                    img: '../image/anh.jpg',
+                    img: './image/7b6fe15e9832fb4e91f331e5815536bb.jpg',
                     singer: 'Sơn Tùng MT-P',
-                    path: '../mp3/dunglamtraitimanhdau.mp3'
+                    path: './mp3/dunglamtraitimanhdau.mp3'
 
                 },
                 {
                     name:'Răng khôn',
-                    img: '../image/răng khôn.jpg',
+                    img: './image/răng khôn.jpg',
                     singer: 'Bích Phương',
-                    path: '../mp3/videoplayback.mp3'
+                    path: './mp3/videoplayback.mp3'
 
                 },
                 {
                     name:'Kimi no toriko',
-                    img: '../image/siêu cô đơn.jpg',
+                    img: './image/siêu cô đơn.jpg',
                     singer: 'Nhật Bản',
-                    path: '../mp3/Kimi no toriko♪ • Summertime - Maggie (ft. Nyan) _ Lyrics Video.mp3'
+                    path: './mp3/Kimi no toriko♪ • Summertime - Maggie (ft. Nyan) _ Lyrics Video.mp3'
 
                 },
                 {
                     name:'Sơn Thủy Trùng Mây',
-                    img: '../image/98bdd00496ac3cda1ae1794a6427d6d4.jpg',
+                    img: './image/98bdd00496ac3cda1ae1794a6427d6d4.jpg',
                     singer: 'Sinkra remix',
-                    path: '../mp3/SƠN THỦY TRÙNG MÂY REMIX  - JENA FT. ANH RỒNG __ SINKRA REMIX.mp3'
+                    path: './mp3/SƠN THỦY TRÙNG MÂY REMIX  - JENA FT. ANH RỒNG __ SINKRA REMIX.mp3'
 
                 },
                 {
                     name:'Siêu cô đơn remix',
-                    img: '../image/a14ebd0894bc68b7899df2bf7d62d52c.jpg',
+                    img: './image/a14ebd0894bc68b7899df2bf7d62d52c.jpg',
                     singer: 'Yan Nguyễn',
-                    path: '../mp3/AMV _ Siêu Cô Đơn Remix Nightcore _ Yan Nguyễn.mp3'
+                    path: './mp3/AMV _ Siêu Cô Đơn Remix Nightcore _ Yan Nguyễn.mp3'
 
                 },
                 {
                     name:'Dành cho em ',
-                    img: '../image/roi bao dem.jpg',
+                    img: './image/roi bao dem.jpg',
                     singer: 'Hoàng Dũng x Orange',
-                    path: '../mp3/Hoàng Dũng x Orange - Dành Cho Em - Live at yên Concert.mp3'
+                    path: './mp3/Hoàng Dũng x Orange - Dành Cho Em - Live at yên Concert.mp3'
 
                 },
                 {
                     name:'Xe đạp ',
-                    img: '../image/d1ad3542162d1b8a3a9f5a295238b6e6.jpg',
+                    img: './image/d1ad3542162d1b8a3a9f5a295238b6e6.jpg',
                     singer: 'Thuỳ Chi ft. Hoàng Dũng',
-                    path: '../mp3/XE ĐẠP _ Thuỳ Chi ft. Hoàng Dũng [at CONCERT 25].mp3'
+                    path: './mp3/XE ĐẠP _ Thuỳ Chi ft. Hoàng Dũng [at CONCERT 25].mp3'
 
                 },
                 {
                     name:'Đường tôi trở em về ',
-                    img: '../image/đường tôi chở em về.jpg',
+                    img: './image/đường tôi chở em về.jpg',
                     singer: 'Bùi Trường Linh',
-                    path: '../mp3/ĐƯỜNG TÔI CHỞ EM VỀ - Bùi Trường Linh _ Live at ISLE OF ART.mp3'
+                    path: './mp3/ĐƯỜNG TÔI CHỞ EM VỀ - Bùi Trường Linh _ Live at ISLE OF ART.mp3'
 
                 },
                

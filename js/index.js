@@ -60,23 +60,23 @@ const app = {
 
     slidealbums:[
         {
-            img: '../image/98bdd00496ac3cda1ae1794a6427d6d4.jpg',
+            img: './image/98bdd00496ac3cda1ae1794a6427d6d4.jpg',
             name: ' List-Thế Vinh '
         },
         {
-            img: '../image/f5f76bf874cd941b271bdda2288ead52.jpg',
+            img: './image/f5f76bf874cd941b271bdda2288ead52.jpg',
             name: ' Những kẻ thất tình'
         },
         {
-            img: '../image/anh.jpg',
+            img: './image/anh.jpg',
             name: 'Nạp lại năng lượng '
         },
         {
-            img: '../image/7b6fe15e9832fb4e91f331e5815536bb.jpg',
+            img: './image/7b6fe15e9832fb4e91f331e5815536bb.jpg',
             name: 'chill'
         },
         {
-            img: '../image/a14ebd0894bc68b7899df2bf7d62d52c.jpg',
+            img: './image/a14ebd0894bc68b7899df2bf7d62d52c.jpg',
             name: 'đôi mắt long lanh'
         },
     ],      
